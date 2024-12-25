@@ -141,6 +141,39 @@ img {
 }
 
 /*=============== NAV ===============*/
+.nav{
+  position: fixed;
+  bottom: 1.5rem;
+  left: 0;
+  right: 0;
+  background-color: hsla(0, 0%, 98%, .1);
+  width: 88%;
+  margin-inline: auto;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+  z-index: var(--z-fixed);
+}
+
+.nav__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link{
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: transparent;
+  color: var(--white-color);
+  font-size: 1.5rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: background-color .6s;
+
+}
 
 
 /* Active link */
