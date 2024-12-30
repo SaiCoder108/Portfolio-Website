@@ -17,19 +17,18 @@
          -> Choose any color 
          -> Copy the color mode (HSL)
   */
-  --hue: 358;
-  --first-color: hsl(210, 80%, 59%); 
-  --first-color-alt: hsl(210, 76%, 55%);    
+  --hue: 213;
+  --first-color: hsl(var(--hue), 80%, 49%);
+  --first-color-alt: hsl(var(--hue), 76%, 45%);
   --white-color: hsl(0, 0%, 98%);
   --black-color: hsl(0, 0%, 1%);
   --text-color: hsl(var(--hue), 2%, 66%);
   --body-color: hsl(var(--hue), 100%, 1%);
   --container-color: hsl(var(--hue), 2%, 10%);
   --conic-gradient: conic-gradient(from 150deg at 50% 45%,
-  hsl(210, 80%, 15%) 0deg, /* Darker navy blue */
-  hsl(210, 80%, 28%) 140deg, /* Darker shade */
-  hsl(210, 80%, 15%) 360deg); /* Darker navy blue */
-
+                  hsl(var(--hue), 80%, 20%) 0deg,
+                  hsl(var(--hue), 80%, 48%) 140deg,
+                  hsl(var(--hue), 80%, 20%) 360deg);
 
 
   /*========== Font and typography ==========*/
@@ -858,6 +857,58 @@ img {
 
   .contact__container{
     grid-template-columns: 620px;
+  }
+
+  .contact__group{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact__area{
+    height: 15rem;
+  }
+
+  .contact__button{
+    width: max-content;
+    justify-self: center;
+  }
+
+  .footer{
+    padding-top: 3rem;
+  }
+
+  .footer__links{
+    column-gap: 3rem;
+  }
+
+  .footer__copy{
+    margin-top: 7rem;
+  }
+
+}
+
+@media screen and (min-width: 1500px) {
+  .nav{
+    width: max-content;
+    height: max-content;
+    padding: 2rem 1rem;
+    left: initial;
+    right: 3rem;
+    top: 0;
+    bottom: 0;
+    margin-block: auto;
+  }
+  
+  .nav__list{
+    flex-direction: column;
+    row-gap: 1.25rem;
+  }
+
+  .footer{
+    padding-block: 3rem;
+  }
+
+  .scrollup{
+    right: 4rem;
   }
 
 }
