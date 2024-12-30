@@ -1,16 +1,12 @@
-# Responsive Portfolio Website Xian
-## [Watch it on youtube](https://youtu.be/vHxVWdMUYo0)
-### Responsive Portfolio Website Xian
+🌟 Personal Portfolio Website
+Welcome to my personal portfolio website! 🎨💻
+Here, you'll find a showcase of my projects, achievements, and interests as a Computer Engineering Enthusiast, Web Developer Intern, and STEM Advocate.
 
-- Responsive Portfolio Website Using HTML CSS And JavaScript
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Contains a beautiful dark theme.
-- The color of the project can be customized.
-- Sending emails in the contact section.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+Features:
+Clean and Modern Design: Highlighting my skills and experiences.
+Interactive Projects: Explore my journey in robotics, software development, and more.
+Responsive Layout: Optimized for all devices.
+Purpose:
+This website serves as a creative space to share my story, showcase my skills, and connect with like-minded individuals in tech and beyond.
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
-
-![preview img](/preview.png)
+Feel free to explore, and let's connect if you're interested in collaborating or learning more about my work! 🚀
