@@ -66,9 +66,9 @@ const sr = ScrollReveal({
 
 sr.reveal(`.perfil`)
 sr.reveal(`.contact__form`)
-sr.reveal(`.info`, {origin: 'left', delay:'800'})
-sr.reveal(`.skills`, {origin: 'left', delay:'1000'})
-sr.reveal(`.about`, {origin: 'right', delay:'1200'})
+sr.reveal(`.info`, {origin: 'left', delay:'600'})
+sr.reveal(`.skills`, {origin: 'left', delay:'800'})
+sr.reveal(`.about`, {origin: 'right', delay:'800'})
 sr.reveal(`.projects__card`, {interval: 100})
 sr.reveal(`.services__card`, {interval: 100})
 sr.reveal(`.experiance__card`, {interval: 100})
