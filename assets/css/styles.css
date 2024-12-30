@@ -366,6 +366,7 @@ img {
   background-color: var(--first-color);
   color: var(--white-color);
   font-weight: var(--font-semi-bold);
+  font-size: .8rem;
   padding: 1.25rem 2.5rem;
   border-radius: 4rem;
   transition: background-color .4s;
