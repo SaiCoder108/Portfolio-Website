@@ -197,7 +197,7 @@ img {
   position: absolute;
   justify-self: center;
   align-self: flex-end;
-  transform: translateY(-9.5rem);
+  transform: translateY(-5.5rem);
 }
 
 .perfil__data{
