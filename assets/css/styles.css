@@ -261,7 +261,7 @@ img {
 }
 
 .info__img{
-  width: 140px;
+  width: 150px;
   justify-self: center;
   align-self: flex-end;
   transform: translateY(.5rem);
